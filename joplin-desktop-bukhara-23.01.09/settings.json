@@ -1,0 +1,60 @@
+{
+	"$schema": "https://joplinapp.org/schema/settings.json",
+	"locale": "en_GB",
+	"api.token": "cca23947e69a5317c9ed8fcca6e9782c3b360d8f6e7a62d697b741e21c1fb2671056de15d2469399cadfe76471913e09dc6da2e55b8dcbe4ee7c21e0cd7ecd88",
+	"markdown.plugin.softbreaks": true,
+	"markdown.plugin.typographer": true,
+	"spellChecker.languages": [
+		"en-AU"
+	],
+	"noteVisiblePanes": [
+		"editor",
+		"viewer"
+	],
+	"ui.layout": {
+		"key": "root",
+		"children": [
+			{
+				"key": "tempContainer-XzPmS82AHYiB3ZUmR6UvDs",
+				"children": [
+					{
+						"key": "sideBar",
+						"visible": true
+					},
+					{
+						"key": "noteList",
+						"visible": true
+					}
+				],
+				"width": 250,
+				"visible": true
+			},
+			{
+				"key": "editor",
+				"visible": true
+			}
+		],
+		"visible": true
+	},
+	"sync.target": 8,
+	"sync.8.path": "joplin-shivermetim",
+	"sync.8.region": "ap-southeast-2",
+	"sync.8.username": "AKIARNP5WO6XQ6HKZOEM",
+	"sync.maxConcurrentConnections": 20,
+	"notes.sortOrder.field": "order",
+	"notes.sortOrder.reverse": false,
+	"dateFormat": "DD.MM.YYYY",
+	"editor": "C:\\ProgramData\\chocolatey\\bin\\lite-xl.exe",
+	"style.editor.fontFamily": "Noto Sans Regular Nerd Font Complete Windows Compatible",
+	"style.editor.monospaceFontFamily": "Noto Mono Nerd Font Complete Mono Windows Compatible",
+	"markdown.plugin.sub": true,
+	"markdown.plugin.sup": true,
+	"markdown.plugin.deflist": true,
+	"markdown.plugin.abbr": true,
+	"markdown.plugin.emoji": true,
+	"markdown.plugin.insert": true,
+	"markdown.plugin.multitable": true,
+	"autoUpdate.includePreReleases": true,
+	"clipperServer.autoStart": true,
+	"theme": 2
+}
