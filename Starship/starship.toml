@@ -1,0 +1,156 @@
+# ~/.config/starship.toml
+
+command_timout = 1000
+
+format = """
+[](#9A348E)\
+$username\
+$hostname\
+[](bg:#DA627D fg:#9A348E)\
+$directory\
+[](fg:#DA627D bg:#FCA17D)\
+$git_branch\
+$git_status\
+[](fg:#FCA17D bg:#86BBD8)\
+$aws\
+$nodejs\
+$rust\
+$cmake\
+$cobol\
+$dotnet\
+$golang\
+$java\
+$julia\
+$python\
+$rlang\
+$ruby\
+[](fg:#86BBD8 bg:#33658A)\
+$time\
+$battery\
+[ ](fg:#33658A)\
+$line_break\
+$localip\
+$memory_usage\
+"""
+
+[username]
+show_always = true
+style_user = "bg:#9A348E"
+style_root = "bg:#9A348E"
+format = '[$user ]($style)'
+
+[hostname]
+ssh_only = false
+style = "bg:#9A348E"
+format = '[@ $hostname]($style)'
+
+[directory]
+style = "bg:#DA627D"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = " "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[git_branch]
+symbol = ""
+style = "bg:#FCA17D"
+format = '[[ $symbol $branch ](bg:#FCA17D)]($style)'
+
+[git_status]
+style = "bg:#FCA17D"
+format = '[[($all_status$ahead_behind )](bg:#FCA17D)]($style)'
+
+[aws]
+format = "on [$symbol$region]($style) "
+style = "bold blue"
+symbol = "🅰 "
+[aws.region_aliases]
+ap-southeast-2 = "au"
+us-east-1 = "va"
+
+[nodejs]
+symbol = ""
+style = "bg:#86BBD8"
+format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+
+[rust]
+symbol = ""
+style = "bg:#86BBD8"
+format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+
+[cmake]
+symbol = "△ "
+style = "bg:#86BBD8"
+format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+
+[cobol]
+symbol = "⚙️ "
+style = "bg:#86BBD8"
+format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+
+[dotnet]
+symbol = ".NET "
+style = "bg:#86BBD8"
+format = '[[$symbol($version )(🎯 $tfm )]($style)'
+
+[golang]
+symbol = "🐹 "
+style = "bg:#86BBD8"
+format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+
+[java]
+symbol = "☕ "
+style = "bg:#86BBD8"
+format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+
+[julia]
+symbol = "ஃ "
+style = "bg:#86BBD8"
+format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+
+[python]
+symbol = "🐍 "
+style = "bg:#86BBD8"
+format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+
+[rlang]
+symbol = "📐"
+style = "bg:#86BBD8"
+format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+
+[ruby]
+symbol = "💎 "
+style = "bg:#86BBD8"
+format = '[[ $symbol ($version) ](bg:#86BBD8)]($style)'
+
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+style = "bg:#33658A"
+format = '[[ ♥ $time ](bg:#33658A)]($style)'
+
+[line_break]
+disabled = false
+
+[localip]
+ssh_only = false
+format = "[$localipv4 ](bold red)"
+disabled = false
+
+[memory_usage]
+disabled = false
+threshold = -1
+format = "| RAM = [${ram}]($style) ~> "
+style = "bold red"
+
+[battery]
+disabled = false
+full_symbol = "🔋 "
+charging_symbol = "⚡️ "
+discharging_symbol = "💀 "
+format = "[$symbol$percentage]($style)"

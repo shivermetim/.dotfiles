@@ -1,0 +1,464 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        }
+    ],
+    "alwaysShowNotificationIcon": true,
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "experimental.rendering.software": false,
+    "launchMode": "default",
+    "minimizeToNotificationArea": false,
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "font": 
+            {
+                "face": "CaskaydiaCove NF"
+            }
+        },
+        "list": 
+        [
+            {
+                "antialiasingMode": "cleartype",
+                "backgroundImage": "D:\\OneDrive\\Downloads\\595-5957916_june-meetup-windows-powershell-logo-clipart.png",
+                "backgroundImageAlignment": "bottomRight",
+                "backgroundImageOpacity": 0.0,
+                "backgroundImageStretchMode": "none",
+                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "PowerShell",
+                "opacity": 75,
+                "source": "Windows.Terminal.PowershellCore",
+                "useAcrylic": false
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": true,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "hidden": false,
+                "name": "Debian",
+                "opacity": 0,
+                "source": "Windows.Terminal.Wsl",
+                "useAcrylic": true
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": true,
+                "name": "Windows PowerShell"
+            },
+            {
+                "colorScheme": "Christine Milne & Bob Brown",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": true,
+                "font": 
+                {
+                    "face": "Cascadia Mono",
+                    "size": 14,
+                    "weight": "normal"
+                },
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt",
+                "tabTitle": "cmd",
+                "unfocusedAppearance": {}
+            },
+            {
+                "colorScheme": "Campbell Powershell",
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "opacity": 75,
+                "source": "Windows.Terminal.Azure",
+                "useAcrylic": false
+            },
+            {
+                "guid": "{2595cd9c-8f05-55ff-a1d4-93f3041ca67f}",
+                "hidden": true,
+                "name": "PowerShell Preview (msix)",
+                "scrollbarState": "visible",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "commandline": "ssh pi@192.168.1.46",
+                "guid": "{a153e6e0-f925-5845-8527-afe75a856ce0}",
+                "icon": "D:\\OneDrive\\Downloads\\RPi-Logo-Reg-SCREEN.png",
+                "name": "Kafir-Kala",
+                "tabTitle": "Kafir-Kala"
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "C:\\Users\\shive\\anaconda3\\python.exe",
+                "guid": "{d6303731-df8e-4018-8d48-a0e8870993b2}",
+                "hidden": false,
+                "icon": "D:\\OneDrive\\Downloads\\Cornmanthe3rd-Plex-Other-python.ico",
+                "name": "Python (3.8)",
+                "opacity": 20,
+                "startingDirectory": "D:\\OneDrive\\Code",
+                "tabTitle": "Python"
+            },
+            {
+                "colorScheme": "Campbell",
+                "commandline": "C:\\cygwin64\\bin\\bash.exe",
+                "guid": "{0ae117b4-2148-43fc-8806-8069fac3c249}",
+                "hidden": false,
+                "icon": "D:\\OneDrive\\Downloads\\1200px-Cygwin_logo.svg.png",
+                "name": "Cygwin",
+                "opacity": 70,
+                "tabTitle": "Cygwin",
+                "useAcrylic": false
+            },
+            {
+                "commandline": "C:\\Users\\shive\\AppData\\Local\\Programs\\Julia-1.7.1\\bin\\julia.exe",
+                "guid": "{e61f550b-ef24-42d2-b755-2577772c1cc3}",
+                "hidden": false,
+                "icon": "D:\\OneDrive\\Downloads\\47639358-7062af80-db37-11e8-8679-42b233b424fa.jpg",
+                "name": "Julia REPL",
+                "tabTitle": "Julia"
+            },
+            {
+                "commandline": "C:\\Ruby30-x64\\bin\\ruby.exe",
+                "guid": "{f954b273-2a25-4115-b5a4-c294eadd7ca2}",
+                "hidden": false,
+                "icon": "D:\\OneDrive\\Downloads\\919842.png",
+                "name": "Ruby",
+                "tabTitle": "Ruby"
+            },
+            {
+                "guid": "{e2f57b15-b7bd-56df-bde3-ec2ef915830c}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{6516bb02-b188-5936-90a7-97b9ddd1eb99}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "commandline": "ssh menu@tty.livingcomputers.org",
+                "guid": "{a57dc0c7-8a25-48fe-87ea-cf8f7d77fdc9}",
+                "hidden": false,
+                "icon": "D:\\OneDrive\\Downloads\\FavIconLCML.png",
+                "name": "Online Systems from Living Computers Museum + Lab",
+                "tabTitle": "LCM+L"
+            },
+            {
+                "antialiasingMode": "cleartype",
+                "backgroundImage": "D:\\OneDrive\\Downloads\\595-5957916_june-meetup-windows-powershell-logo-clipart.png",
+                "backgroundImageAlignment": "bottomRight",
+                "backgroundImageOpacity": 0.0,
+                "backgroundImageStretchMode": "none",
+                "colorScheme": "Campbell",
+                "commandline": "ssh shive@192.168.1.69",
+                "guid": "{56cbd84f-60ff-4968-b91e-50c7a0225f68}",
+                "hidden": false,
+                "icon": "D:\\OneDrive\\Downloads\\intel.ico",
+                "name": "shive@BUKHARA",
+                "opacity": 75,
+                "startingDirectory": "%USERPROFILE%",
+                "tabTitle": "Bukhara",
+                "useAcrylic": false
+            },
+            {
+                "antialiasingMode": "cleartype",
+                "backgroundImage": "D:\\OneDrive\\Downloads\\595-5957916_june-meetup-windows-powershell-logo-clipart.png",
+                "backgroundImageAlignment": "bottomRight",
+                "backgroundImageOpacity": 0.0,
+                "backgroundImageStretchMode": "none",
+                "colorScheme": "Campbell",
+                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe \\\"C:/Users/Shive/AppData/Local/Google/Cloud SDK/cloud_env.bat\\\"",
+                "guid": "{37d990c2-169a-4391-a8db-be3787205213}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "Google Cloud Shell",
+                "opacity": 75,
+                "startingDirectory": "%USERPROFILE%",
+                "tabTitle": "GCS",
+                "useAcrylic": false
+            },
+            {
+                "guid": "{8d89a9a6-1eea-50a1-b236-d45513f08881}",
+                "hidden": false,
+                "name": "CentOS8",
+                "source": "Windows.Terminal.Wsl"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#0C0C0C",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#CCCCCC",
+            "green": "#13A10E",
+            "name": "Campbell",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        },
+        {
+            "background": "#012456",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#CCCCCC",
+            "green": "#13A10E",
+            "name": "Campbell Powershell",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        },
+        {
+            "background": "#0C0C0C",
+            "black": "#0C0C0C",
+            "blue": "#00FF00",
+            "brightBlack": "#00FF00",
+            "brightBlue": "#00FF00",
+            "brightCyan": "#00FF00",
+            "brightGreen": "#00FF00",
+            "brightPurple": "#00FF00",
+            "brightRed": "#00FF00",
+            "brightWhite": "#00FF00",
+            "brightYellow": "#00FF00",
+            "cursorColor": "#00FF00",
+            "cyan": "#00FF00",
+            "foreground": "#00FF00",
+            "green": "#00FF00",
+            "name": "Christine Milne & Bob Brown",
+            "purple": "#00FF00",
+            "red": "#00FF00",
+            "selectionBackground": "#00FF00",
+            "white": "#00FF00",
+            "yellow": "#00FF00"
+        },
+        {
+            "background": "#282C34",
+            "black": "#282C34",
+            "blue": "#61AFEF",
+            "brightBlack": "#5A6374",
+            "brightBlue": "#61AFEF",
+            "brightCyan": "#56B6C2",
+            "brightGreen": "#98C379",
+            "brightPurple": "#C678DD",
+            "brightRed": "#E06C75",
+            "brightWhite": "#DCDFE4",
+            "brightYellow": "#E5C07B",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#56B6C2",
+            "foreground": "#DCDFE4",
+            "green": "#98C379",
+            "name": "One Half Dark",
+            "purple": "#C678DD",
+            "red": "#E06C75",
+            "selectionBackground": "#FFFFFF",
+            "white": "#DCDFE4",
+            "yellow": "#E5C07B"
+        },
+        {
+            "background": "#FAFAFA",
+            "black": "#383A42",
+            "blue": "#0184BC",
+            "brightBlack": "#4F525D",
+            "brightBlue": "#61AFEF",
+            "brightCyan": "#56B5C1",
+            "brightGreen": "#98C379",
+            "brightPurple": "#C577DD",
+            "brightRed": "#DF6C75",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#E4C07A",
+            "cursorColor": "#4F525D",
+            "cyan": "#0997B3",
+            "foreground": "#383A42",
+            "green": "#50A14F",
+            "name": "One Half Light",
+            "purple": "#A626A4",
+            "red": "#E45649",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FAFAFA",
+            "yellow": "#C18301"
+        },
+        {
+            "background": "#002B36",
+            "black": "#002B36",
+            "blue": "#268BD2",
+            "brightBlack": "#073642",
+            "brightBlue": "#839496",
+            "brightCyan": "#93A1A1",
+            "brightGreen": "#586E75",
+            "brightPurple": "#6C71C4",
+            "brightRed": "#CB4B16",
+            "brightWhite": "#FDF6E3",
+            "brightYellow": "#657B83",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#2AA198",
+            "foreground": "#839496",
+            "green": "#859900",
+            "name": "Solarized Dark",
+            "purple": "#D33682",
+            "red": "#DC322F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#EEE8D5",
+            "yellow": "#B58900"
+        },
+        {
+            "background": "#FDF6E3",
+            "black": "#002B36",
+            "blue": "#268BD2",
+            "brightBlack": "#073642",
+            "brightBlue": "#839496",
+            "brightCyan": "#93A1A1",
+            "brightGreen": "#586E75",
+            "brightPurple": "#6C71C4",
+            "brightRed": "#CB4B16",
+            "brightWhite": "#FDF6E3",
+            "brightYellow": "#657B83",
+            "cursorColor": "#002B36",
+            "cyan": "#2AA198",
+            "foreground": "#657B83",
+            "green": "#859900",
+            "name": "Solarized Light",
+            "purple": "#D33682",
+            "red": "#DC322F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#EEE8D5",
+            "yellow": "#B58900"
+        },
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#3465A4",
+            "brightBlack": "#555753",
+            "brightBlue": "#729FCF",
+            "brightCyan": "#34E2E2",
+            "brightGreen": "#8AE234",
+            "brightPurple": "#AD7FA8",
+            "brightRed": "#EF2929",
+            "brightWhite": "#EEEEEC",
+            "brightYellow": "#FCE94F",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#06989A",
+            "foreground": "#D3D7CF",
+            "green": "#4E9A06",
+            "name": "Tango Dark",
+            "purple": "#75507B",
+            "red": "#CC0000",
+            "selectionBackground": "#FFFFFF",
+            "white": "#D3D7CF",
+            "yellow": "#C4A000"
+        },
+        {
+            "background": "#FFFFFF",
+            "black": "#000000",
+            "blue": "#3465A4",
+            "brightBlack": "#555753",
+            "brightBlue": "#729FCF",
+            "brightCyan": "#34E2E2",
+            "brightGreen": "#8AE234",
+            "brightPurple": "#AD7FA8",
+            "brightRed": "#EF2929",
+            "brightWhite": "#EEEEEC",
+            "brightYellow": "#FCE94F",
+            "cursorColor": "#000000",
+            "cyan": "#06989A",
+            "foreground": "#555753",
+            "green": "#4E9A06",
+            "name": "Tango Light",
+            "purple": "#75507B",
+            "red": "#CC0000",
+            "selectionBackground": "#FFFFFF",
+            "white": "#D3D7CF",
+            "yellow": "#C4A000"
+        },
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#000080",
+            "brightBlack": "#808080",
+            "brightBlue": "#0000FF",
+            "brightCyan": "#00FFFF",
+            "brightGreen": "#00FF00",
+            "brightPurple": "#FF00FF",
+            "brightRed": "#FF0000",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFF00",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#008080",
+            "foreground": "#C0C0C0",
+            "green": "#008000",
+            "name": "Vintage",
+            "purple": "#800080",
+            "red": "#800000",
+            "selectionBackground": "#FFFFFF",
+            "white": "#C0C0C0",
+            "yellow": "#808000"
+        }
+    ],
+    "startOnUserLogin": true,
+    "tabSwitcherMode": "inOrder",
+    "tabWidthMode": "compact",
+    "useAcrylicInTabRow": true,
+    "windowingBehavior": "useAnyExisting",
+    "wordDelimiters": " /\\()\"'-.,:;<>~!@#$%^&*|+=[]{}~?\u2502"
+}
